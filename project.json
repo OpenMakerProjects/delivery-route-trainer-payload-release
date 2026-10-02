@@ -1,0 +1,21 @@
+{
+  "id": 876,
+  "title": "Delivery Route Trainer Payload Release",
+  "repository_slug": "delivery-route-trainer-payload-release",
+  "category": "Drones",
+  "platform": "RP2040",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "connectivity": "LoRa",
+  "components": [
+    "optical flow sensor",
+    "IMU",
+    "battery monitor"
+  ],
+  "scope": "Build a drones prototype that uses optical flow sensor, IMU, battery monitor to release a lightweight payload at a target. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Payload Release demonstration with repeatable test steps",
+  "mode": "closed_loop_control",
+  "entrypoint": "firmware/delivery-route-trainer-payload-release/delivery-route-trainer-payload-release.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
